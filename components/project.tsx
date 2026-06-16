@@ -1,4 +1,4 @@
-import { Project as ProjectType } from "projects";
+import { Project as ProjectType } from "../components/projects";
 
 export default function Project({ project }: { project: ProjectType }) {
   return (
