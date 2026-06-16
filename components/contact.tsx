@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="min-h-screen px-12 flex flex-col justify-center">
+    <section className="min-h-screen px-12 flex flex-col justify-center relative">
       <h2 className="text-right text-5xl text-[var(--accent-blue)] font-black tracking-tighter">
         CONTACT
       </h2>

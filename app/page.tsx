@@ -10,9 +10,14 @@ export default function Home() {
     <main>
       <Hero />
       <About />
-      {projects.map((project) => (
-        <Project key={project.id} project={project} />
-      ))}
+      <section className="relative min-h-[200vh]">
+        <h2 className="mt-20 text-right text-5xl text-[var(--accent-blue)] font-black sticky top-8">
+          PROJECTS
+        </h2>
+        {projects.map((project) => (
+          <Project key={project.id} project={project} />
+        ))}
+      </section>
       <Contact />
     </main>
   );

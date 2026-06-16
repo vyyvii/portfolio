@@ -12,9 +12,6 @@ export default function About() {
         For me, every project starts with a question and ends with a deeper understanding of the systems behind it.
       </p>
       <br></br><br></br>
-      <h2 className="mt-20 text-right text-5xl text-[var(--accent-blue)] font-black">
-        PROJECTS
-      </h2>
     </section>
   );
 }
