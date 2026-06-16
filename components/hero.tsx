@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col justify-center px-12">
+    <section className="min-h-screen flex flex-col justify-center px-12 tracking-tighter">
       <p className="text-5xl text-[var(--foreground-muted)] font-black">
         Victor
       </p>
