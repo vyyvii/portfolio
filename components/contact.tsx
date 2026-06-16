@@ -12,9 +12,6 @@ export default function Contact() {
           <br/>
           interesting.
         </h3>
-        <p className="mt-8 text-xl text-[var(--foreground-muted)] max-w-2xl">
-          Don't hesitate to contact me!
-        </p>
         <div className="mt-16 flex gap-12 text-2xl font-black">
           <a
             href="mailto:v.defauchy@mailbox.org"
