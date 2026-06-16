@@ -21,8 +21,7 @@ export default function Project({ project }: { project: ProjectType } ) {
           <p className="text-md lg:text-xl text-[var(--foreground)] leading-relaxed">
             <strong className="text-[var(--foreground)]">
               {project.lead}
-            </strong>
-            {project.description}
+            </strong> {project.description}
           </p>
 
           <div className="flex flex-wrap gap-2">

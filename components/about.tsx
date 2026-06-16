@@ -20,7 +20,7 @@ export default function About() {
 
       <div className="
             max-w-4xl mx-auto mt-24
-            tracking-tight text-xl lg:text-2xl">
+            tracking-tight text-sm lg:text-2xl">
         <p className="mt-12 leading-relaxed text-[var(--foreground-muted)] font-medium">
           Most of the time, it starts with an interesting question.
         </p>
