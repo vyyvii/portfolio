@@ -1,17 +1,32 @@
 export default function About() {
   return (
-    <section className="px-12 flex flex-col gap-4 font-black tracking-tighter">
-      <h2 className="mt-20 text-right text-5xl text-[var(--accent-blue)]">
-        ABOUT
+    <section id="about" className="px-12 py-45 relative min-h-[50vh]">
+      <h2 id="aboutt" className="mt-20 text-left text-4xl text-[var(--accent-blue)] tracking-tighter font-black sticky top-8">
+        Why I build
       </h2>
-      <br></br><br></br>
-      <p className="text-center  text-xl text-[var(--foreground)] max-w-5xl mx-auto">
-        I'm Victor, a computer science student driven by curiosity.<br></br><br></br>
-        I build projects to understand how things work, whether it's predicting train delays with AI,<br></br>
-        writing a shell from scratch, exploring cybersecurity, or creating simulations from simple rules.<br></br>
-        For me, every project starts with a question and ends with a deeper understanding of the systems behind it.
+
+      <p className="text-5xl font-black tracking-tighter leading-tight text-[var(--foreground)] text-left max-w-3xl mx-auto mt-24 tracking-tight">
+        I build projects to understand what lies behind the abstraction.
       </p>
-      <br></br><br></br>
+      <div className="max-w-4xl mx-auto mt-24 tracking-tight">
+        <p className="mt-12 text-2xl leading-relaxed text-[var(--foreground-muted)] font-medium">
+          Most of the time, it starts with an interesting question.
+        </p>
+
+        <p className="mt-6 text-2xl leading-relaxed text-[var(--foreground-muted)] font-medium">
+          Can train delays be predicted?
+          <br />
+          How does a shell actually work?
+          <br />
+          Can we do a videogame based on nothing but just 0 & 1?
+        </p>
+
+        <p className="mt-12 text-2xl leading-relaxed text-[var(--foreground-muted)] font-medium">
+          Building is how I explore those questions.
+          Every project on this site began with an idea, a challenge,
+          or a joke that went much further than expected.
+        </p>
+      </div>
     </section>
   );
 }
